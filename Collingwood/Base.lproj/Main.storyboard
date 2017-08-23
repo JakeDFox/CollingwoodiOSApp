@@ -124,8 +124,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="DSC_0176" translatesAutoresizingMaskIntoConstraints="NO" id="T34-R5-VBU">
-                                <rect key="frame" x="0.0" y="-70" width="375" height="70"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DSC_0176-Cropped copy" translatesAutoresizingMaskIntoConstraints="NO" id="dYK-J1-VFK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="248"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iIv-ah-4RB">
                                 <rect key="frame" x="16" y="20" width="51" height="35"/>
@@ -195,7 +195,7 @@
                                                     <constraint firstAttribute="width" constant="151" id="ga2-tk-IWZ"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DSC_0176" translatesAutoresizingMaskIntoConstraints="NO" id="qI7-4p-OmX">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DSC_0176-Cropped copy" translatesAutoresizingMaskIntoConstraints="NO" id="qI7-4p-OmX">
                                                 <rect key="frame" x="182" y="0.0" width="151" height="103"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="151" id="Nau-rS-TaE"/>
@@ -216,12 +216,16 @@
                             <constraint firstItem="14P-g2-Pb7" firstAttribute="top" secondItem="CgN-KP-3KV" secondAttribute="bottom" constant="149" id="113-KG-6BG"/>
                             <constraint firstItem="CgN-KP-3KV" firstAttribute="centerX" secondItem="4gA-ua-DHj" secondAttribute="centerX" id="9Gd-UT-1zz"/>
                             <constraint firstItem="ome-dy-VKf" firstAttribute="centerX" secondItem="4gA-ua-DHj" secondAttribute="centerX" id="FVd-86-Tij"/>
-                            <constraint firstAttribute="trailing" secondItem="T34-R5-VBU" secondAttribute="trailing" id="Jx4-gk-A1Z"/>
-                            <constraint firstItem="T34-R5-VBU" firstAttribute="centerX" secondItem="4gA-ua-DHj" secondAttribute="centerX" id="Ta0-Wx-9Cv"/>
+                            <constraint firstItem="dYK-J1-VFK" firstAttribute="centerX" secondItem="4gA-ua-DHj" secondAttribute="centerX" id="KxO-Mh-3Mh"/>
+                            <constraint firstItem="dYK-J1-VFK" firstAttribute="leading" secondItem="4gA-ua-DHj" secondAttribute="leading" id="T9K-5R-LU4"/>
                             <constraint firstItem="ome-dy-VKf" firstAttribute="top" secondItem="jxe-Tf-0Z2" secondAttribute="bottom" constant="83" id="abN-TO-STf"/>
-                            <constraint firstItem="T34-R5-VBU" firstAttribute="leading" secondItem="4gA-ua-DHj" secondAttribute="leading" id="f0K-SR-mey"/>
+                            <constraint firstAttribute="trailing" secondItem="dYK-J1-VFK" secondAttribute="trailing" id="bCr-Jk-UDO"/>
                             <constraint firstItem="iIv-ah-4RB" firstAttribute="leading" secondItem="4gA-ua-DHj" secondAttribute="leadingMargin" id="fT3-Ez-AaH"/>
+                            <constraint firstItem="CgN-KP-3KV" firstAttribute="top" secondItem="dYK-J1-VFK" secondAttribute="bottom" constant="31" id="fYd-7i-Wda">
+                                <variation key="heightClass=regular" constant="30"/>
+                            </constraint>
                             <constraint firstItem="iIv-ah-4RB" firstAttribute="top" secondItem="jxe-Tf-0Z2" secondAttribute="bottom" id="fa0-cO-jSe"/>
+                            <constraint firstItem="dYK-J1-VFK" firstAttribute="top" secondItem="4gA-ua-DHj" secondAttribute="top" id="q6C-YK-mkK"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -338,7 +342,7 @@ We are located on the shores of Georgian Bay, and our waterfront provides endles
         </scene>
     </scenes>
     <resources>
-        <image name="DSC_0176" width="1024" height="1536"/>
+        <image name="DSC_0176-Cropped copy" width="1017" height="641"/>
         <image name="DSC_0267" width="1024" height="678"/>
         <image name="PICT0125" width="1024" height="768"/>
         <image name="PICT0929" width="1024" height="768"/>
